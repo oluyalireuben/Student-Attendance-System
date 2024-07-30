@@ -46,10 +46,7 @@ This is a web-based application for managing student attendance. The system is b
 1. **Clone the Repository:**
    - Open your terminal or command prompt.
    - Navigate to the directory where you want to clone the project.
-   - Run the following command:
-     ```sh
-     git clone <repository-url>
-     ```
+  
 
 2. **Move the Project to XAMPP's htdocs Directory:**
    - Move the cloned project folder to `C:\xampp\htdocs` (or the corresponding directory on your system).
