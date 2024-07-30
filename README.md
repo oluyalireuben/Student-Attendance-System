@@ -80,4 +80,24 @@ This is a web-based application for managing student attendance. The system is b
    - You can now register a new user and log in to access the attendance management dashboard.
 
 ## Project Structure
+attendance-system/
+│
+├── index.html
+├── login.html
+├── register.html
+├── dashboard.html
+├── attendance.html
+│
+├── css/
+│   ├── styles.css
+│
+├── js/
+│   ├── main.js
+│
+└── php/
+    ├── db.php
+    ├── register.php
+    ├── login.php
+    ├── attendance.php
+
 
