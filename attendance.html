@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance - Attendance Management System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="sidebar">
+  <a href="dashboard.html">Dashboard</a>
+  <a href="attendance.html">Attendance</a>
+  <a href="php/logout.php">Logout</a>
+</div>
+<div class="main-content">
+  <h1>Attendance</h1>
+  <form action="php/attendance.php" method="post">
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id" required>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    <button type="submit">Mark Attendance</button>
+  </form>
+</div>
+</body>
+</html>
